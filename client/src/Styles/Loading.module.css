@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1042692085/thumb/9.jpg?ip=x480');
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.loading {
+    align-self: center;
+    font-size: 120px;
+
+}

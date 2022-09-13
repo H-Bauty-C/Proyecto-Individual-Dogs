@@ -1,0 +1,43 @@
+.background{
+    background-image: url('https://www.teahub.io/photos/full/83-837904_fondo-de-pantalla-hd-perros-beagle.jpg');
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    height: 100%; 
+    position:fixed  
+  }
+
+  .apiTitle {
+    color: white;
+    flex-direction: column;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 700px;
+  }
+
+  .button {
+    background-color: transparent;
+    flex-direction: column;
+    color: #fff;
+    font-size: 35px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    border: #fff solid 3px;
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-top: 1px;
+    margin-top: 40px;
+    margin-right: 700px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #220F00;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}

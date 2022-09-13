@@ -1,0 +1,46 @@
+.mainContainer {
+    width: 18rem; 
+    height: 35rem;
+    border-width: 0.2rem;
+    border-style: outset;
+    background-size:cover;
+    border-radius: 10px;
+    border-color: rgba(168, 137, 117, 0.87);
+    transition: transform .5s;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(168, 137, 117, 0.87);
+    text-decoration: none;
+}
+
+.mainContainer:hover{
+    transform: scale(1.1);
+}
+
+.title {
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.87)
+
+}
+
+.diets {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.87)
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
